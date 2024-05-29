@@ -1,7 +1,7 @@
 import fs from "fs";
 import readline from "readline";
 
-const processBindFile = async (filePath) => {};
+export const processBindFile = async (filePath) => {};
 
 // this line of code gets the file
 const fileStream = fs.createReadStream(filePath);
